@@ -1,27 +1,29 @@
-# Laravel PHP Framework
+# Laravel 5.3 後端作品：Blog（含文章留言、搜尋機制、後台）
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## 使用技術
+* HTML5, CSS, Bootstrap, jQuery
+* Laravel 5.3 PHP Framework
+* MySQL Database
+* Package：tinyMCE
+* 支援行動裝置（RWD設計）
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## 登入
+使用Laravel 5.3 Auth
+![](https://github.com/cora-chou/cora-chou.github.io/blob/master/img/Laravel-Blog/login.png)
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Blog後台管理
+含分頁功能、簡單搜尋文章機制
+![](https://github.com/cora-chou/cora-chou.github.io/blob/master/img/Laravel-Blog/admin.png)
 
-## Official Documentation
+## 新增文章
+所見即所得的文章編輯器（使用tinyMCE Package）
+![](https://github.com/cora-chou/cora-chou.github.io/blob/master/img/Laravel-Blog/create.png)
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+## 編輯文章
+![](https://github.com/cora-chou/cora-chou.github.io/blob/master/img/Laravel-Blog/update.png)
 
-## Contributing
+## 單一文章顯示
+![](https://github.com/cora-chou/cora-chou.github.io/blob/master/img/Laravel-Blog/single.png)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+## 文章留言功能
+![](https://github.com/cora-chou/cora-chou.github.io/blob/master/img/Laravel-Blog/comment.png)
