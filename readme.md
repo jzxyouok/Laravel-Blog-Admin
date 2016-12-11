@@ -1,4 +1,4 @@
-# Laravel 5.3 後端作品：Blog（含文章留言、搜尋機制、後台）
+# Laravel 5.3 後端作品：Blog（含圖片上傳、搜尋機制、後台）
 
 ## 使用技術
 * HTML5, CSS, Bootstrap, jQuery
@@ -16,7 +16,8 @@
 ![](https://github.com/cora-chou/cora-chou.github.io/blob/master/img/Laravel-Blog/admin.png)
 
 ## 新增文章
-所見即所得的文章編輯器（使用tinyMCE Package）
+* 所見即所得的文章編輯器（使用tinyMCE Package）
+* 圖片上傳機制
 ![](https://github.com/cora-chou/cora-chou.github.io/blob/master/img/Laravel-Blog/create.png)
 
 ## 編輯文章
