@@ -5,6 +5,7 @@
 * Laravel 5.3 PHP Framework
 * MySQL Database
 * Package：tinyMCE
+https://tinymce.com/download/
 * 支援行動裝置（RWD設計）
 
 ## 登入
